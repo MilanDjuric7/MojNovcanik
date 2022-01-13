@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);            // kreiram skener za ceo projekat
 
         List<Korisnik> korisnici = new ArrayList<>();
         Korisnik ulogovanKorisnik = null;
