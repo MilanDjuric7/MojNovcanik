@@ -158,7 +158,7 @@ public class Main {
                     + iznosUDrugojValuti + " u toj valuti.");
             }
 
-            // nedostaje opcija "9. Kupi". Nisam stigao da je istrazim a ni najbolje znao da je uradim.
+            // nedostaje opcija "9. Kupi". Nisam stigao zbog niza obaveza da je dovoljno istrazim i uradim.
 
             else if (opcija.equalsIgnoreCase("10")) {
 
