@@ -100,7 +100,7 @@ public class Main {
                 System.out.print("Unesite stanje na racunu: ");
                 double inicijalnoStanjeRacuna = sc.nextDouble();
 
-                sc.nextLine(); // pokupio Enter viska (dva puta se vracao na meni.
+                sc.nextLine();                      // pokupio Enter viska (dva puta se vracao na meni)
 
                 ulogovanKorisnik.dodajRacun(brojRacuna,inicijalnoStanjeRacuna);
             }
@@ -157,6 +157,8 @@ public class Main {
                 System.out.println(iznos + " dinara, kada se prebaci u " + valuta + "/e, iznosi "
                     + iznosUDrugojValuti + " u toj valuti.");
             }
+
+            // nedostaje opcija "9. Kupi". Nisam stigao da je istrazim a ni najbolje znao da je uradim.
 
             else if (opcija.equalsIgnoreCase("10")) {
 
